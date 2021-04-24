@@ -23,14 +23,13 @@ After compling the code, an executive file named "MILBMMP" will be generated. To
 2) number of pieces for McCormick dual finder operation (_k*D_ in the paper)
 3) number of pieces for McCormick cut (_k^P_ in the paper)
 
-The only requirement for the lp files for this program is that two first constraints must indicate the variables representing the linear terms. For example:
-"Minimize
- obj:
-Subject To
- c1:    x1  = 0
- c2:    x2  = 0
- c3:    ... "
- 
+The only requirement for the lp files for this program is that two first constraints must indicate the variables representing the linear terms. For example: <br/>
+"Minimize <br/>
+ obj: <br/>
+Subject To <br/>
+ c1:    x1  = 0<br/>
+ c2:    x2  = 0<br/>
+ c3:    ... "<br/> 
  Where there has to be a constraint that equates _x1_ to the first linear term and _x2_ to the second linear term of the multiplicative objective function.
  
 ### Example
