@@ -29,19 +29,20 @@ The only requirement for the lp files for this program is that two first constra
 Subject To <br/>
  c1:    x1  = 0<br/>
  c2:    x2  = 0<br/>
- c3:    ... "<br/> 
+ c3:    ... "
+ 
  Where there has to be a constraint that equates _x1_ to the first linear term and _x2_ to the second linear term of the multiplicative objective function.
  
 ### Example
-An example lp file "1.lp" has been provided in the packege. By runnin the follwoing command in the terminal the program will solve this instance and show the following result:
-"#_of_constraints #_of_variables instance_name
-Lower_bound Upper_bound     'Time = ' solution_time  'y1= ' value_of_first_term  'y2= ' value_of_second_term"
-for example:
-./MIBLMMP "1.lp" 0 0 
-1000  1000  1.lp
-51.617 51.6171    Time = 4.74645   y1= 7.88948   y2= 6.54251"
+An example lp file "1.lp" has been provided in the packege. By runnin the follwoing command in the terminal the program will solve this instance and show the following result:<br/>
+"#_of_constraints #_of_variables instance_name<br/>
+Lower_bound Upper_bound     'Time = ' solution_time  'y1= ' value_of_first_term  'y2= ' value_of_second_term"<br/>
+for example:<br/>
+./MIBLMMP "1.lp" 0 0 <br/>
+1000  1000  1.lp<br/>
+51.617 51.6171    Time = 4.74645   y1= 7.88948   y2= 6.54251"<br/>
 
-In addition, a text file named "Output.txt" will be generated that includes some more detail information of algorithm's solution:
+In addition, a text file named "Output.txt" will be generated that includes some more detail information of algorithm's solution:<br/>
 1) Instance: name of the instance
 2) nCons: number of the constraints
 3) nVar: number of the variables 
