@@ -42,6 +42,7 @@ for example:<br/>
 1000  1000  1.lp<br/>
 51.617 51.6171    Time = 4.74645   y1= 7.88948   y2= 6.54251"<br/>
 
+## List of Inputs
 In addition, a text file named "Output.txt" will be generated that includes some more detail information of algorithm's solution:<br/>
 1) Instance: name of the instance
 2) nCons: number of the constraints
@@ -58,3 +59,10 @@ In addition, a text file named "Output.txt" will be generated that includes some
 13) McDualCallNum: number of times any McCormick operation is used
 14) CplexDualNodeNum: Number of nodes CPLEX generates during the primal operation
 15) CplexPrimalNodeNum: Number of nodes CPLEX generates during the dual operation
+
+## Reference
+This package is introuduced in the following paper:<br/>
+...
+## Instance repository
+The instances used for the mentioined publication can be found in the following address:<br/>
+https://usf.box.com/s/0wy7um4z5gbrtuta57ruy7tmey67rzwy
