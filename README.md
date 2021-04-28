@@ -60,9 +60,7 @@ In addition, a text file named "Output.txt" will be generated that includes some
 14) CplexDualNodeNum: Number of nodes CPLEX generates during the primal operation
 15) CplexPrimalNodeNum: Number of nodes CPLEX generates during the dual operation
 
-## Reference
-This package is introuduced in the following paper:<br/>
-...
+
 ## Instance repository
 The instances used for the mentioined publication can be found in the following address:<br/>
 https://usf.box.com/s/0wy7um4z5gbrtuta57ruy7tmey67rzwy
